@@ -10,6 +10,7 @@ const prisma = new PrismaClient();
 
 const allowedOrigins = [
   'http://localhost:3000',
+  'https://method-scrapper-viewer.vercel.app'
 ];
 
 app.use(cors({
